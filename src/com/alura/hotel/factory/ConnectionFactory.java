@@ -18,7 +18,7 @@ public class ConnectionFactory {
         var pooledDataSource = new ComboPooledDataSource();
         
          String urlPoolConexion = "jdbc:sqlserver://localhost:1433;" +
-                                 "database=control_de_stock;" +
+                                 "database=hotelalura;" +
                                  "loginTimeout=30;" +
                                  "TrustServerCertificate=True;";
         
